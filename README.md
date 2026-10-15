@@ -1,28 +1,40 @@
-# PROMPT_PILOT
+# PROMPT_PILOT｜让 Prompt 持续进化
 
-> 让 Prompt 从一次性的输入，变成可分析、可优化的工作资产。
+**面向 AI 编程与学习，把 Prompt 从一次性输入变成可复用的工作资产。**
 
-**LukeZ 过往作品独立展示。** 这里是为报名准备的案例介绍，不包含原项目源码或素材；项目详情、协作者与贡献记录以[原项目仓库](https://github.com/eiddiedev/PROMPT_PILOT)为准。
+PROMPT_PILOT 是一个 Prompt 工作台。它围绕任务匹配、质量分析和迭代改写组织创作流程，帮助用户找到合适的提示词、理解它为何适用，并根据实际反馈继续优化。
 
-## 项目概览
+## 工作方式
 
-PROMPT_PILOT 是面向 AI 编程与学习场景的 Prompt 工作台，围绕匹配、诊断、改写与沉淀组织完整流程。
+### 任务匹配
 
-## 展示重点
+用户从当前任务出发获取 Prompt 建议。系统展示匹配结果及其适用场景、优势和取舍，让推荐有依据，也便于用户作出选择。
 
-- Prompt Match 根据任务目标返回可解释的推荐结果。
-- Prompt DNA 呈现质量画像与改写前后的变化。
-- 无 DeepSeek API Key 时仍可使用本地回退分析。
+### 质量画像
 
-## 技术与体验关键词
+Prompt DNA 将提示词的清晰度、结构和约束等特征转化为可读的质量画像。用户可以据此发现提示词中需要补足的信息。
 
-Prompt Match · Prompt Evolution · Prompt DNA
+### 迭代优化
 
-## 查看作品
+用户提交原始 Prompt 和使用反馈后，工作台生成优化版本，并呈现修改前后的差异。Prompt 的优化过程因此可回看、可比较，也更容易迁移到相似任务。
 
-- [在线展示页](https://lukezhuo666.github.io/LukeZ-Prompt-Pilot/)
-- [原项目与实现记录](https://github.com/eiddiedev/PROMPT_PILOT)
-- [LukeZ 总作品集](https://lukezhuo666.github.io/LukeZ/)
+## 设计重点
 
-展示页图形为新绘制的 CSS 抽象视觉，不使用原项目图片或代码。
+- **从任务开始**：按用户目标组织提示词，而不是只依赖关键词搜索。
+- **展示推荐理由**：提供适用场景与取舍，帮助用户判断匹配结果。
+- **保留变化过程**：通过 Prompt Delta 和前后对照，让优化结果有迹可循。
+- **支持无密钥体验**：未配置 DeepSeek API Key 时，仍可使用本地回退分析。
 
+## 适用场景
+
+AI 辅助编程、课程学习、资料整理、方案撰写，以及需要反复试验提示词的日常任务。
+
+## 项目信息
+
+- **方向**：AI 创作流程与提示词管理
+- **体验关键词**：任务匹配、Prompt DNA、反馈迭代、可解释推荐
+
+## 作品入口
+
+- [在线体验介绍页](https://lukezhuo666.github.io/LukeZ-Prompt-Pilot/)
+- [LukeZ 作品集](https://lukezhuo666.github.io/LukeZ/)
