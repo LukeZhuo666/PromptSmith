@@ -20,7 +20,7 @@ Prompt Match · Prompt Evolution · Prompt DNA
 
 ## 查看作品
 
-- [独立展示页](./index.html)
+- [在线展示页](https://lukezhuo666.github.io/LukeZ-Prompt-Pilot/)
 - [原项目与实现记录](https://github.com/eiddiedev/PROMPT_PILOT)
 - [LukeZ 总作品集](https://lukezhuo666.github.io/LukeZ/)
 
